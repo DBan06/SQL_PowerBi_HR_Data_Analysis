@@ -36,11 +36,11 @@ where termdate is not null and termdate!='';
 alter table hr
 modify column termdate date;
 -- =======================================================================================================
-
+-- adding the age column
 alter table hr
 add column age int;
 update hr
 set age=timestampdiff(year,birthdate,curdate());
-
+-- ==============================================================================================================
 select count(*) from hr where age<18;
 select max(age) from hr;
