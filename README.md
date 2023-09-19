@@ -1,5 +1,8 @@
 # SQL_PowerBi_HR_Data_Analysis
 
+![image](https://github.com/DBan06/SQL_PowerBi_HR_Data_Analysis/assets/82170668/db261ef7-d14b-449e-8ecd-4c34959ff8e9)
+
+
 **Data Used**- HR data
 **Data Cleaning**- SQl (My SQL workbench)
 **Data Visualization**- Power BI
